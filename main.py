@@ -10,8 +10,12 @@ while not palabra2:
 		palabra2=str(input('pon otra: '))
 	except ValueError:
 		print('dije palabraa ')
-list1=list(palabra1)
-list2=list(palabra2)
+palabra11= palabra1.lower()
+palabra22= palabra2.lower()
+
+
+list1=list(palabra11)
+list2=list(palabra22)
 
 from utils.funcion import ordernum1
 
